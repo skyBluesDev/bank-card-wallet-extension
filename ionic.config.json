@@ -1,0 +1,7 @@
+{
+  "name": "bank-card-wallet-extension-angular",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
