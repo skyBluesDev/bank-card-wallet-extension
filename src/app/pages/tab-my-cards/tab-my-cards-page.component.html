@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> کارت‌های من</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">کارت‌های من</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <swiper-container
+    #swiper
+    class="w-60 h-32"
+    effect="cards"
+    grab-cursor="true"
+    swiper>
+    <swiper-slide
+      class="rounded-xl bg-cyan-600 flex justify-center items-center"
+      >Slide 1
+    </swiper-slide>
+    <swiper-slide
+      class="rounded-xl bg-cyan-600 flex justify-center items-center"
+      >Slide 1
+    </swiper-slide>
+    <swiper-slide
+      class="rounded-xl bg-cyan-600 flex justify-center items-center"
+      >Slide 1
+    </swiper-slide>
+    <swiper-slide
+      class="rounded-xl bg-cyan-600 flex justify-center items-center"
+      >Slide 1
+    </swiper-slide>
+  </swiper-container>
+</ion-content>
